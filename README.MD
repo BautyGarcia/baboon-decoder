@@ -10,7 +10,7 @@ Me parece perfecto, acá te dejo como levantar el server de Streamlit de forma l
 
 - Clonate el repositorio a tu computadora. `git clone` por las dudas.
 - Una vez que estes en el directorio correcto, vamos a tener que crear un entorno de desarrollo con `venv`. Para esto corremos `python3 -m venv env` y `source ./env/bin/activate`
-- Ahora que estamos dentro del entorno, usamos `pip3 install -r requirements.txt` para descargar los paquetes necesarios
+- Ahora que estamos dentro del entorno, usamos `pip3 install numpy pillow streamlit` para descargar los paquetes necesarios
 - Ahora lo único que te queda es correr `streamlit run main.py` y hacer tu magia, suerte.
 
 ## Windows
